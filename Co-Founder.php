@@ -1,3 +1,27 @@
+<?php
+
+function clean_text($string)
+{
+  $string = trim($string);
+  $string = stripslashes($string);
+  $string = htmlspecialchars($string);
+  return $string;
+}
+if(isset($_POST['submit'])){
+$name = clean_text($_POST['name']);
+$email = clean_text($_POST['email']);
+$subject = clean_text($_POST['subject']);
+
+$to = "festechsolutions@gmail.com";
+$headers = "MIME-VERSION: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" ."\r\n";
+$headers = "From : <$email> \r\n "; 
+
+$message = "Received Email from: $name\n\n";
+$message .= clean_text($_POST['message']);
+$message .= "\n\nTo send a reply, please click <a href='mailto:$email'>here</a>";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,20 +63,20 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index#hero">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="index.html#about">About Us</a></li>
-              <li><a href="Founder.html">Founder</a></li>
-              <li><a href="Co-Founder.html">CEO and Co-Founder</a></li>
+              <li><a href="index#about">About Us</a></li>
+              <li><a href="Founder">Founder</a></li>
+              <li><a href="Co-Founder">CEO and Co-Founder</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality</a></li>
-              <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
+              <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
+              <li><a href="Aark-Reality">Aark Reality</a></li>
+              <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -70,7 +94,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index">Home</a></li>
           <li>CEO and Co-Founder</li>
         </ol>
         <h2>CEO and Co-Founder</h2>
@@ -98,7 +122,7 @@
                 <p style="text-align: justify;">
                   Ravi Chandran a seasoned hotelier having a vast, rich professional experience of over 30 years in an assortment of 3 star, 5 star hotels, resort and convention centers. A qualified Hospitality Professional further attained the prestigious (CHA) Certified Hotel Administrator Certification from American Hotels and Lodging Association, USA and is also a Member in Institute of Hospitality (MIH) UK, Formerly known HCIMA.
                 </p>
-                <p>
+                <p style="text-align: justify;">
                   An award winning Hotelier has won many accolades for his hotels he has served including the recent Best Three Star Hotel of the state from State Tourism Board other than that, the performance awards from Make My Trip, Clear Trip, Travel Guru ,Holiday IQ and Trip Advisor to name a few.<br><br>
                   Ravi is closely associated with Skal International, Hyderabad Chapter and HRATS (Hotel Restaurant Association of Telangana State) in the capacity as Vice President for both the Association and has been working for betterment of the Hospitality/Tourism industry as a whole. Has a great edge since most of the family members are in the field of Hospitality.
 		     	      </p>
@@ -233,13 +257,24 @@
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              </div><br>
+              <div class="text-center"><input type="submit" name="submit" value="Send Message"></div>
+              <?php
+                if (isset ($_POST['submit']))
+                {
+                  if(mail($to,$subject,$message,$headers))
+                  {
+                    echo '<script type="text/javascript">';
+                    echo 'setTimeout(function () { swal("Hurray!","Your response has been recorded, Relax and sit back we will contact you soon.","success");';
+                    echo '}, 1000);</script>';
+                  }
+                  else{
+                    echo '<script type="text/javascript">';
+                    echo 'setTimeout(function () { swal("Oops","There is an error, We are working on the issue. Apologies for the Inconvenience caused","error");';
+                    echo '}, 1000);</script>';
+                  }
+                }
+              ?>
             </form>
           </div>
 
@@ -270,7 +305,6 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->

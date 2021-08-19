@@ -19,7 +19,7 @@ $headers = "From : <$email> \r\n ";
 
 $message = "Received Email from: $name\n\n";
 $message .= clean_text($_POST['message']);
-$message .= "\n\nTo send a reply, please click-> $email";
+$message .= "\n\nTo send a reply, please click <a href='mailto:$email'>here</a>";
 }
 ?>
 <!DOCTYPE html>
@@ -66,16 +66,16 @@ $message .= "\n\nTo send a reply, please click-> $email";
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#about">About Us</a></li>
-              <li><a href="Founder.html">Founder</a></li>
-              <li><a href="Co-Founder.html">CEO and Co-Founder</a></li>
+              <li><a href="Founder">Founder</a></li>
+              <li><a href="Co-Founder">CEO and Co-Founder</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality</a></li>
-              <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
+              <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
+              <li><a href="Aark-Reality">Aark Reality</a></li>
+              <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -336,7 +336,6 @@ $message .= "\n\nTo send a reply, please click-> $email";
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
