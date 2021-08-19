@@ -7,6 +7,7 @@ function clean_text($string)
   $string = htmlspecialchars($string);
   return $string;
 }
+
 if(isset($_POST['submit'])){
 $name = clean_text($_POST['name']);
 $email = clean_text($_POST['email']);
@@ -19,7 +20,7 @@ $headers = "From : <$email> \r\n ";
 
 $message = "Received Email from: $name\n\n";
 $message .= clean_text($_POST['message']);
-$message .= "\n\nTo send a reply, please click <a href='mailto:$email'>here</a>";
+$message .= '\n\nTo send a reply, please click <a href="mailto:'.$email.'"> here</a>';
 }
 ?>
 <!DOCTYPE html>
@@ -53,7 +54,7 @@ $message .= "\n\nTo send a reply, please click <a href='mailto:$email'>here</a>"
 </head>
 
 <body>
-
+  
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
