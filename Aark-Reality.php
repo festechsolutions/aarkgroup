@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Aark Hotels And Resorts</title>
+  <title>Aark Reality</title>
   <meta content="Aark Group assists in Buying, Selling or Leasing of Hotels, Resorts and Restaurants on a Pan India basis. Assuring you of the best and quick deals. Aark Group also assists stand alone properties for a brand tie-up with reputed National/International Group Hotels." name="description">
   <meta content="hospitality, consultancy, hotels, resorts, restaurants, catering" name="keywords">
 
@@ -45,8 +45,8 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality LLP</a></li>
+              <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
+              <li><a href="#">Aark Reality</a></li>
               <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
             </ul>
           </li> 
@@ -66,9 +66,9 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Aark Hotels and Resorts</li>
+          <li>Aark Reality</li>
         </ol>
-        <h2>Aark Hotels and Resorts</h2>
+        <h2>Aark Reality</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -82,7 +82,7 @@
             <span class="float-left">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">
-                  <img src="assets/img/hotel.jpg" alt="Hotels And Resorts">
+                  <img src="assets/img/reality.jpg" alt="Reality">
                 </div>
               </div>
             </span>
@@ -90,19 +90,19 @@
           <div class="col-xs-12 col-sm-6 col-centered">
             <span class="float-right">
               <p style="text-align: justify;padding-left: 50px;padding-top: 50px;">
-                1. Management And Franchising
+                  1. Joint Ventures
               </p>
               <p style="text-align: justify;padding-left: 50px;">
-                  2. Hospitality Consultant
+                  2. Infrastructure Development
               </p>
               <p style="text-align: justify;padding-left: 50px;">
-                  3. Co-ordination of Hotel Project Fund
+                  3. Buying, Selling and Leasing of Commercial Land
               </p>
               <p style="text-align: justify;padding-left: 50px;">
-                  4. Specialist in Stressed Assert
+                  4. Co-ordination of Project Development Funding
               </p>
               <p style="text-align: justify;padding-left: 50px;">
-                  5. Mystery Auditing
+                  5. Preferred Sales Partner
               </p>
             </span>
           </div>           
@@ -141,7 +141,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
-              <h4><a href="">Manpower Placements</a></h4>
+              <h4><a href="">Infrastructure Development</a></h4>
               <p>We help you find the right people for the right jobs at your Hotels and Restaurants.</p>
             </div>
           </div>
@@ -165,7 +165,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Outdoor Catering</a></h4>
+              <h4><a href="">Funding Co-ordination</a></h4>
               <p>For any type of outdoor orders, we provide the best in class catering servies for your events</p>
             </div>
           </div>

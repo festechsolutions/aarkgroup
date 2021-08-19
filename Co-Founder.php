@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Welcome to Aark Group</title>
+  <title>CEO and Co-Founder - Aark Group</title>
   <meta content="Aark Group assists in Buying, Selling or Leasing of Hotels, Resorts and Restaurants on a Pan India basis. Assuring you of the best and quick deals. Aark Group also assists stand alone properties for a brand tie-up with reputed National/International Group Hotels." name="description">
   <meta content="hospitality, consultancy, hotels, resorts, restaurants, catering" name="keywords">
 
@@ -22,11 +22,16 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    img{
+      border-radius: 50%;
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
+ <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -37,7 +42,7 @@
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#about">About Us</a></li>
+              <li><a href="index.html#about">About Us</a></li>
               <li><a href="Founder.html">Founder</a></li>
               <li><a href="Co-Founder.html">CEO and Co-Founder</a></li>
             </ul>
@@ -46,7 +51,7 @@
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality LLP</a></li>
+              <li><a href="Aark-Reality.html">Aark Reality</a></li>
               <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
             </ul>
           </li> 
@@ -58,73 +63,54 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <h1>Welcome to Aark Group</h1>
-      <h2>Aark Group assists in Buying, Selling or Leasing of Hotels, Resorts and Restaurants on a Pan India basis. Assuring you of the best and quick deals. We also assist stand alone properties for a brand tie-up with reputed National/International Group Hotels.</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
-    </div>
-  </section><!-- End Hero -->
-
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container"><br>
-        <div class="row">
-          <div class="col-lg-4 order-1 order-lg-2" data-aos="fade-left">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Aark Group of companies</h3>
-            <p>
-              Aark Group is a professionally managed entity and offers a wide range of hospitality services. A company managed by a experts from the hospitality industry having years of experience in the hospitality industry verticals and now offering a range of services tailored to all your hospitality needs.
-            </p>
-            <p> Aark Group is a team of professionally qualified and experienced young, creative, enthusiastic and dynamic persons with a sparkling stream of ideas having vast experience in the field of hospitality solution. Aark Group is established with the goal of giving its each and every event an excellent taste, experience, and identity with a truly innovative idea and excellent services.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Company Section ======= -->
-    <section id="why-us" class="why-us">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
-        <div class="row">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>CEO and Co-Founder</li>
+        </ol>
+        <h2>CEO and Co-Founder</h2>
 
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>01</span>
-              <h4>Aark Reality LLP</h4>
-              <p>Aark Reality is functioned fully focussed on real estate. We buy, sell, lease the Land, plots, buildings of any purposes</p>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-4	">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+                  <img src="assets/img/cofounder.jpg" alt="Co-Founder">
+              </div>
             </div>
-          </div>
+		      </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="box">
-              <span>02</span>
-              <h4>Aark Hotels and Resorts</h4>
-              <p>Aark Hotels and Resorts manages the properties related to hotels and resorts, we can help you buy, sell, lease Hotels and Resorts</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <span>03</span>
-              <h4> Aark Charity Services </h4>
-              <p>Aark Charitable trust mainly focuses on the social problems and we help finding solutions</p>
+          <div class="col-lg-6">
+            
+            <div class="portfolio-description">
+              <h2>Ravi Chandran <br>  <p>  CHA, MIH. <br>  CEO & Co–Founder </p> </h2>
+                <p style="text-align: justify;">
+                  Ravi Chandran a seasoned hotelier having a vast, rich professional experience of over 30 years in an assortment of 3 star, 5 star hotels, resort and convention centers. A qualified Hospitality Professional further attained the prestigious (CHA) Certified Hotel Administrator Certification from American Hotels and Lodging Association, USA and is also a Member in Institute of Hospitality (MIH) UK, Formerly known HCIMA.
+                </p>
+                <p>
+                  An award winning Hotelier has won many accolades for his hotels he has served including the recent Best Three Star Hotel of the state from State Tourism Board other than that, the performance awards from Make My Trip, Clear Trip, Travel Guru ,Holiday IQ and Trip Advisor to name a few.<br><br>
+                  Ravi is closely associated with Skal International, Hyderabad Chapter and HRATS (Hotel Restaurant Association of Telangana State) in the capacity as Vice President for both the Association and has been working for betterment of the Hospitality/Tourism industry as a whole. Has a great edge since most of the family members are in the field of Hospitality.
+		     	      </p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Company Section -->
-
-    <!-- ======= Services Section ======= -->
+    </section><!-- End Portfolio Details Section -->
+	
+	 <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -154,7 +140,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
-              <h4><a href="">Manpower Placements</a></h4>
+              <h4><a href="">Infrastructure Development</a></h4>
               <p>We help you find the right people for the right jobs at your Hotels and Restaurants.</p>
             </div>
           </div>
@@ -178,7 +164,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Outdoor Catering</a></h4>
+              <h4><a href="">Funding Co-ordination</a></h4>
               <p>For any type of outdoor orders, we provide the best in class catering servies for your events</p>
             </div>
           </div>
@@ -187,21 +173,8 @@
 
       </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Contact us for any services needed.</p>
-          <a class="cta-btn" href="#contact">Call To Action</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
-
-    <!-- ======= Contact Section ======= -->
+	
+  	<!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 

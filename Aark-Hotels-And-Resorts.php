@@ -22,15 +22,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <style type="text/css">
-    @media only screen and (min-width: 400px) {
-      .img-fluid {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -54,9 +45,9 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality LLP</a></li>
-              <li><a href="#">Aark Charity Services</a></li>
+              <li><a href="#">Aark Hotels and Resorts</a></li>
+              <li><a href="Aark-Reality.html">Aark Reality</a></li>
+              <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -75,25 +66,114 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Aark Charity Services</li>
+          <li>Aark Hotels and Resorts</li>
         </ol>
-        <h2>Aark Charity Services</h2>
+        <h2>Aark Hotels and Resorts</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Coming Soon Section ======= -->
-    <section id="coming-soon" class="coming-soon">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        
-        <div class="row">
-          <div class="span">
-            <img class="img-fluid" src="assets/img/coming-soon.jpg" alt="Coming-Soon"/>
-            </div>
+
+        <div class="row col-md-12">        
+          <div class="col-xs-12 col-sm-6" >
+            <span class="float-left">
+              <div class="portfolio-details-slider swiper-container">
+                <div class="swiper-wrapper align-items-center">
+                  <img src="assets/img/hotel.jpg" alt="Hotels And Resorts">
+                </div>
+              </div>
+            </span>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-centered">
+            <span class="float-right">
+              <p style="text-align: justify;padding-left: 50px;padding-top: 50px;">
+                1. Management And Franchising
+              </p>
+              <p style="text-align: justify;padding-left: 50px;">
+                  2. Hospitality Consultant
+              </p>
+              <p style="text-align: justify;padding-left: 50px;">
+                  3. Co-ordination of Hotel Project Fund
+              </p>
+              <p style="text-align: justify;padding-left: 50px;">
+                  4. Specialist in Stressed Assert
+              </p>
+              <p style="text-align: justify;padding-left: 50px;">
+                  5. Mystery Auditing
+              </p>
+            </span>
+          </div>           
         </div>
 
       </div>
-    </section><!-- End Coming Soon Section -->
+    </section><!-- End Portfolio Details Section -->
+  
+   <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Services</span>
+          <h2>Services</h2>
+          
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-truck"></i></div>
+              <h4><a href="">Buy, Sell and Lease</a></h4>
+              <p>We assist you in buying, selling, leasing the lands, buildings and plots  </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Hospitality Consultancy </a></h4>
+              <p>We help you in providing consultation services for your Hotel, Resorts or Restaurants</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
+              <h4><a href="">Infrastructure Development</a></h4>
+              <p>We help you find the right people for the right jobs at your Hotels and Restaurants.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-store"></i></div>
+              <h4><a href="">Hospitality Applications</a></h4>
+              <p>We help you with the best available software for management of your Hotels and Restaurants </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-check-shield"></i></div>
+              <h4><a href="">Aark Consultation Services</a></h4>
+              <p>For any begginer in the industry, we help you in setting up Restaurants or Hotels and assist you in management</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Funding Co-ordination</a></h4>
+              <p>For any type of outdoor orders, we provide the best in class catering servies for your events</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
   
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">

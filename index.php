@@ -1,3 +1,27 @@
+<?php
+
+function clean_text($string)
+{
+  $string = trim($string);
+  $string = stripslashes($string);
+  $string = htmlspecialchars($string);
+  return $string;
+}
+if(isset($_POST['submit'])){
+$name = clean_text($_POST['name']);
+$email = clean_text($_POST['email']);
+$subject = clean_text($_POST['subject']);
+
+$to = "festechsolutions@gmail.com";
+$headers = "MIME-VERSION: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" ."\r\n";
+$headers = "From : <$email> \r\n "; 
+
+$message = "Received Email from: $name\n\n";
+$message .= clean_text($_POST['message']);
+$message .= "\n\nTo send a reply, please click-> $email";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,13 +44,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Sweet Alert Files -->
+  <link data-require="sweet-alert@*" data-semver="0.4.2" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <style>
-    img{
-      border-radius: 50%;
-    }
-  </style>
 </head>
 
 <body>
@@ -39,10 +62,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="index.html#about">About Us</a></li>
+              <li><a href="#about">About Us</a></li>
               <li><a href="Founder.html">Founder</a></li>
               <li><a href="Co-Founder.html">CEO and Co-Founder</a></li>
             </ul>
@@ -51,7 +74,7 @@
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality LLP</a></li>
+              <li><a href="Aark-Reality.html">Aark Reality</a></li>
               <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
             </ul>
           </li> 
@@ -63,50 +86,73 @@
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+      <h1>Welcome to Aark Group</h1>
+      <h2>Aark Group assists in Buying, Selling or Leasing of Hotels, Resorts and Restaurants on a Pan India basis. Assuring you of the best and quick deals. We also assist stand alone properties for a brand tie-up with reputed National/International Group Hotels.</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Founder</li>
-        </ol>
-        <h2>Founder</h2>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container"><br>
+        <div class="row">
+          <div class="col-lg-4 order-1 order-lg-2" data-aos="fade-left">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Aark Group of companies</h3>
+            <p>
+              Aark Group is a professionally managed entity and offers a wide range of hospitality services. A company managed by a experts from the hospitality industry having years of experience in the hospitality industry verticals and now offering a range of services tailored to all your hospitality needs.
+            </p>
+            <p> Aark Group is a team of professionally qualified and experienced young, creative, enthusiastic and dynamic persons with a sparkling stream of ideas having vast experience in the field of hospitality solution. Aark Group is established with the goal of giving its each and every event an excellent taste, experience, and identity with a truly innovative idea and excellent services.
+            </p>
+          </div>
+        </div>
 
       </div>
-    </section><!-- End Breadcrumbs -->
+    </section><!-- End About Section -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <!-- ======= Company Section ======= -->
+    <section id="why-us" class="why-us">
       <div class="container">
 
-        <div class="row gy-4">
-          <div class="col-lg-4">
-            <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
-                  <img src="assets/img/founder.jpg" alt="Founder">
-              </div>
-            </div>
-		      </div>
+        <div class="row">
 
-          <div class="col-lg-6">
-            <div class="portfolio-description">
-              <h2>Anita Chandran</h2>
-                <p style="text-align: justify;">
-                  Anita is a veteran in the hospitality industry with over 30 years of experience. Having graduated in Hotel Management she went on to pursue her Masters in Tourism and Hospitality. With over 32 years of experience to her credit, out of which 10 years in the hospitality industry in a cross section of departments varying from production, bakery, f&b service to sales the highlight being in charge of a route hotel renovation and expansion project.<br><br>
-                  This solid industry foundation opened avenues in hospitality education where she has to her credit the completion and successful operations of two prestigious hotel management institutes, in the capacity of principal and director. Raising the bar of hospitality education, she ran many initiatives, working in tandem with the universities, AICTE and NCHMCT. Acknowledgements where forthcoming in the form of many awards for her organization. Her vast and varied experience combined with her sheer dedication towards her profession makes her an unparalleled force. Her practical and operation-friendly solutions brings executing large-scale projects to her very naturally.
-		     	      </p>
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="box">
+              <span>01</span>
+              <h4>Aark Reality</h4>
+              <p>Aark Reality is functioned fully focussed on real estate. We buy, sell, lease the Land, plots, buildings of any purposes</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
+            <div class="box">
+              <span>02</span>
+              <h4>Aark Hotels and Resorts</h4>
+              <p>Aark Hotels and Resorts manages the properties related to hotels and resorts, we can help you buy, sell, lease Hotels and Resorts</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <span>03</span>
+              <h4> Aark Charity Services </h4>
+              <p>Aark Charitable trust mainly focuses on the social problems and we help finding solutions</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Details Section -->
-	
-	  <!-- ======= Services Section ======= -->
+    </section><!-- End Company Section -->
+
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -136,7 +182,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
-              <h4><a href="">Manpower Placements</a></h4>
+              <h4><a href="">Infrastructure Development</a></h4>
               <p>We help you find the right people for the right jobs at your Hotels and Restaurants.</p>
             </div>
           </div>
@@ -160,7 +206,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Outdoor Catering</a></h4>
+              <h4><a href="">Funding Co-ordination</a></h4>
               <p>For any type of outdoor orders, we provide the best in class catering servies for your events</p>
             </div>
           </div>
@@ -169,9 +215,21 @@
 
       </div>
     </section><!-- End Services Section -->
-	
-	
-	 <!-- ======= Contact Section ======= -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Call To Action</h3>
+          <p> Contact us for any services needed.</p>
+          <a class="cta-btn" href="#contact">Call To Action</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
@@ -230,13 +288,24 @@
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              </div><br>
+              <div class="text-center"><input type="submit" name="submit" value="Send Message"></div>
+              <?php
+                if (isset ($_POST['submit']))
+                {
+                  if(mail($to,$subject,$message,$headers))
+                  {
+                    echo '<script type="text/javascript">';
+                    echo 'setTimeout(function () { swal("Hurray!","Your response has been recorded, Relax and sit back we will contact you soon.","success");';
+                    echo '}, 1000);</script>';
+                  }
+                  else{
+                    echo '<script type="text/javascript">';
+                    echo 'setTimeout(function () { swal("Oops","There is an error, We are working on the issue. Apologies for the Inconvenience caused","error");';
+                    echo '}, 1000);</script>';
+                  }
+                }
+              ?>
             </form>
           </div>
 

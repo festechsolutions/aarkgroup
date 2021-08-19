@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Welcome to Aark Group</title>
+  <title>Founder - Aark Group</title>
   <meta content="Aark Group assists in Buying, Selling or Leasing of Hotels, Resorts and Restaurants on a Pan India basis. Assuring you of the best and quick deals. Aark Group also assists stand alone properties for a brand tie-up with reputed National/International Group Hotels." name="description">
   <meta content="hospitality, consultancy, hotels, resorts, restaurants, catering" name="keywords">
 
@@ -31,7 +31,7 @@
 
 <body>
 
- <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -39,7 +39,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="index.html#about">About Us</a></li>
@@ -51,7 +51,7 @@
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Aark-Hotels-And-Resorts.html">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality.html">Aark Reality LLP</a></li>
+              <li><a href="Aark-Reality.html">Aark Reality</a></li>
               <li><a href="Aark-Charitable-Trust.html">Aark Charity services</a></li>
             </ul>
           </li> 
@@ -71,9 +71,9 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>CEO and Co-Founder</li>
+          <li>Founder</li>
         </ol>
-        <h2>CEO and Co-Founder</h2>
+        <h2>Founder</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -83,24 +83,20 @@
       <div class="container">
 
         <div class="row gy-4">
-          <div class="col-lg-4	">
+          <div class="col-lg-4">
             <div class="portfolio-details-slider swiper-container">
               <div class="swiper-wrapper align-items-center">
-                  <img src="assets/img/cofounder.jpg" alt="Co-Founder">
+                  <img src="assets/img/founder.jpg" alt="Founder">
               </div>
             </div>
 		      </div>
 
           <div class="col-lg-6">
-            
             <div class="portfolio-description">
-              <h2>Ravi Chandran <br>  <p>  CHA, MIH. <br>  CEO & Co–Founder </p> </h2>
+              <h2>Anita Chandran</h2>
                 <p style="text-align: justify;">
-                  Ravi Chandran a seasoned hotelier having a vast, rich professional experience of over 30 years in an assortment of 3 star, 5 star hotels, resort and convention centers. A qualified Hospitality Professional further attained the prestigious (CHA) Certified Hotel Administrator Certification from American Hotels and Lodging Association, USA and is also a Member in Institute of Hospitality (MIH) UK, Formerly known HCIMA.
-                </p>
-                <p>
-                  An award winning Hotelier has won many accolades for his hotels he has served including the recent Best Three Star Hotel of the state from State Tourism Board other than that, the performance awards from Make My Trip, Clear Trip, Travel Guru ,Holiday IQ and Trip Advisor to name a few.<br><br>
-                  Ravi is closely associated with Skal International, Hyderabad Chapter and HRATS (Hotel Restaurant Association of Telangana State) in the capacity as Vice President for both the Association and has been working for betterment of the Hospitality/Tourism industry as a whole. Has a great edge since most of the family members are in the field of Hospitality.
+                  Anita is a veteran in the hospitality industry with over 30 years of experience. Having graduated in Hotel Management she went on to pursue her Masters in Tourism and Hospitality. With over 32 years of experience to her credit, out of which 10 years in the hospitality industry in a cross section of departments varying from production, bakery, f&b service to sales the highlight being in charge of a route hotel renovation and expansion project.<br><br>
+                  This solid industry foundation opened avenues in hospitality education where she has to her credit the completion and successful operations of two prestigious hotel management institutes, in the capacity of principal and director. Raising the bar of hospitality education, she ran many initiatives, working in tandem with the universities, AICTE and NCHMCT. Acknowledgements where forthcoming in the form of many awards for her organization. Her vast and varied experience combined with her sheer dedication towards her profession makes her an unparalleled force. Her practical and operation-friendly solutions brings executing large-scale projects to her very naturally.
 		     	      </p>
             </div>
           </div>
@@ -110,7 +106,7 @@
       </div>
     </section><!-- End Portfolio Details Section -->
 	
-	 <!-- ======= Services Section ======= -->
+	  <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -140,7 +136,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
-              <h4><a href="">Manpower Placements</a></h4>
+              <h4><a href="">Infrastructure Development</a></h4>
               <p>We help you find the right people for the right jobs at your Hotels and Restaurants.</p>
             </div>
           </div>
@@ -164,7 +160,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Outdoor Catering</a></h4>
+              <h4><a href="">Funding Co-ordination</a></h4>
               <p>For any type of outdoor orders, we provide the best in class catering servies for your events</p>
             </div>
           </div>
@@ -174,7 +170,8 @@
       </div>
     </section><!-- End Services Section -->
 	
-  	<!-- ======= Contact Section ======= -->
+	
+	 <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
