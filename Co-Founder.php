@@ -44,6 +44,10 @@ $message .= "\n\nTo send a reply, please click <a href='mailto:$email'>here</a>"
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Sweet Alert Files -->
+  <link data-require="sweet-alert@*" data-semver="0.4.2" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
