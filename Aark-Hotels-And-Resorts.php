@@ -34,10 +34,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
   <meta content="hospitality, consultancy, hotels, resorts, restaurants, catering" name="keywords">
 
   <!-- Google Fonts -->
-  <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -157,7 +154,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-truck"></i></div>
               <h4><a href="">Buy, Sell and Lease</a></h4>
-              <p>We assist you in buying, selling, leasing the lands, buildings and plots  </p>
+              <p style="text-align: justify;">We are here to assist you in buying, selling and leasing. Be it lands, buildings or plots.</p>
             </div>
           </div>
 
@@ -165,7 +162,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Hospitality Consultancy </a></h4>
-              <p>We help you in providing consultation services for your Hotel, Resorts or Restaurants</p>
+              <p style="text-align: justify;">We help you with any services needed in managing your restaurant or hotels. Consulting is the best way to go.</p>
             </div>
           </div>
 
@@ -173,7 +170,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
               <h4><a href="">Infrastructure Development</a></h4>
-              <p>We help you find the right people for the right jobs at your Hotels and Restaurants.</p>
+              <p style="text-align: justify;">It’s important to always find the right people for the right job. Here to help you hire the  best as teamwork is dreamwork.</p>
             </div>
           </div>
 
@@ -181,7 +178,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="icon-box">
               <div class="icon"><i class="bx bx-store"></i></div>
               <h4><a href="">Hospitality Applications</a></h4>
-              <p>We help you with the best available software for management of your Hotels and Restaurants </p>
+              <p style="text-align: justify;">Want to climb up the technical ladder? We are here with the best in class software applications that will allow you to proceed as you need.</p>
             </div>
           </div>
 
@@ -189,7 +186,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="icon-box">
               <div class="icon"><i class="bx bx-check-shield"></i></div>
               <h4><a href="">Aark Consultation Services</a></h4>
-              <p>For any begginer in the industry, we help you in setting up Restaurants or Hotels and assist you in management</p>
+              <p style="text-align: justify;">You are a beginner in the industry, don’t feel alone. Reach out to us and we will help you set up your Restaurants, Hotels and manage them.</p>
             </div>
           </div>
 
@@ -197,7 +194,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a href="">Funding Co-ordination</a></h4>
-              <p>For any type of outdoor orders, we provide the best in class catering servies for your events</p>
+              <p style="text-align: justify;">For any kind of outdoor orders, we provide the best in class catering services. As, food is the life of any party.</p>
             </div>
           </div>
 

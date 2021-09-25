@@ -91,7 +91,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
       <h1>Welcome to Aark Group</h1>
-      <h2 style="text-align: justify;">The Aark Group is a professionally well versed company that spreads over three different braches namely Aark Reality, Aark Hotels and Resorts, Aark Charitable Trust.</h2>
+      <h2 style="text-align: justify;">The Aark Group is a professionally well versed company that spreads over three different branches namely Aark Reality, Aark Hotels and Resorts, Aark Charitable Trust. It's a group of companies with expertise from different fields put together for providing tailored fit, custom made services specifically designed according to your needs.</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero -->
