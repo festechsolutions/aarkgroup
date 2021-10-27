@@ -75,7 +75,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality">Aark Reality</a></li>
+              <li><a href="Aark-Realty">Aark Realty</a></li>
               <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
             </ul>
           </li> 
@@ -91,8 +91,8 @@ $message .= "\n\nTo send a reply, please click here -> $email";
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
       <h1>Welcome to Aark Group</h1>
-      <h2 style="text-align: justify;">The Aark Group is a professionally well versed company that spreads over three different branches namely Aark Reality, Aark Hotels and Resorts, Aark Charitable Trust. It's a group of companies with expertise from different fields put together for providing tailored fit, custom made services specifically designed according to your needs.</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <h2 style="text-align: justify;">The AARK Group is a professionally well experienced company that spreads over three different verticals namely Aark Reality, Aark Hotels and Resorts, Aark Charitable Trust. It's a group of companies with expertise from different fields put together for providing tailored fit, custom made services specifically designed according to your needs.</h2>
+      <center><a href="#about" class="btn-get-started scrollto">Get Started</a></center>
     </div>
   </section><!-- End Hero -->
 
@@ -108,13 +108,10 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <h3>Aark Group of companies</h3>
             <p style="text-align: justify;">
-              Aark Group is a professionally managed entity that offers a wide range of hospitality services. A company that is micro-managed by experts with extensive experience of having worked for various hospitality verticals. Which now offers you a plethora of services custom made to serve all your hospitality needs.
-            </p>
-            <p style="text-align: justify;">
-              Aark Group houses a team of young and professionally qualified creative team members that work under guidance of experienced and dynamic leaders. Giving rise to a stream of innovative ideas to provide the finest experience in the field of hospitality and it's solutions. Aark Group was established with the goal of giving every event an excellent taste, experience, and identity along with excellent services.
-            </p>
-            <p style="text-align: justify;">
-              Aark Reality is fully focused on dealing with real estate services. We buy, sell and lease. Land, plots or buildings for any purpose. It functions on reality thereby providing you with a smooth experience.
+              AARK Group is a conglomerate of hospitality and realty industries. A group that is micromanaged by experts with extensive experience of having worked for various verticals in the business. Which now offers you a plethora of services custom made to serve all your hospitality, reality, infrastructural needs.
+            </p>
+            <p style="text-align: justify;">  
+              AARK group houses of a team of young and professionally qualified creative team members that work under guidance of experienced and dynamic leaders. AARK Group was established with the goal of giving every event an excellent taste, experience, and identity along with excellent services.
             </p>
           </div>
         </div>
@@ -130,26 +127,34 @@ $message .= "\n\nTo send a reply, please click here -> $email";
 
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
+             <a href="Aark-Realty"> 
               <span>01</span>
-              <h4>Aark Reality</h4>
-              <p style="text-align: justify;">Aark Reality is fully focused on dealing with real estate services. We buy, sell and lease. Land, plots or buildings for any purpose. It functions on reality thereby providing you with a smooth experience.</p>
+              <h4>Aark Realty</h4>
+              <p style="text-align: justify;">Aark Realty is fully focused on dealing with real estate services. We buy, sell and lease. Land, plots or buildings for any purpose. It functions on reality thereby providing you with a smooth experience.</p><br>
+              <span><u>Get Started</u></span>
+             </a>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
+             <a href="Aark-Hotels-And-Resorts"> 
               <span>02</span>
               <h4>Aark Hotels and Resorts</h4>
-              <p style="text-align: justify;">Aark Hotels and Resorts specifically manages the finest of properties related to hotels and resorts. We are here to help you buy, sell, lease or sublet Hotels and Resorts based on the requirements conveyed.
-              </p>
+              <p style="text-align: justify;">Aark Hotels and Resorts specifically manages the finest of properties related to hotels and resorts. We are here to help you buy, sell, lease or sublet Hotels and Resorts based on the requirements conveyed.</p><br>
+              <span><u>Get Started</u></span>
+             </a> 
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
+             <a href="Aark-Charitable-Trust">
               <span>03</span>
               <h4> Aark Charity Services </h4>
-              <p style="text-align: justify;">Aark Charitable was started with a pure heart and sole intent of eliminating social problems. We strive to help and find solutions for society. As, we at Aark believe that we rise only by lifting others.</p>
+              <p style="text-align: justify;">Aark Charitable was started with a pure heart and sole intent of eliminating social problems. We strive to help and find solutions for society. As, we at Aark believe that we rise only by lifting others.</p><br>
+              <span><u>Get Started</u></span>
+             </a>
             </div>
           </div>
 
@@ -172,7 +177,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-truck"></i></div>
-              <h4><a href="">Buy, Sell and Lease</a></h4>
+              <h4><a href="javascript:void(0)">Buy, Sell and Lease</a></h4>
               <p style="text-align: justify;">We are here to assist you in buying, selling and leasing. Be it lands, buildings or plots.</p>
             </div>
           </div>
@@ -180,7 +185,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Hospitality Consultancy </a></h4>
+              <h4><a href="javascript:void(0)">Hospitality Consultancy </a></h4>
               <p style="text-align: justify;">We help you with any services needed in managing your restaurant or hotels. Consulting is the best way to go.</p>
             </div>
           </div>
@@ -188,7 +193,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
-              <h4><a href="">Infrastructure Development</a></h4>
+              <h4><a href="javascript:void(0)">Infrastructure Development</a></h4>
               <p style="text-align: justify;">It’s important to always find the right people for the right job. Here to help you hire the  best as teamwork is dreamwork.</p>
             </div>
           </div>
@@ -196,7 +201,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-store"></i></div>
-              <h4><a href="">Hospitality Applications</a></h4>
+              <h4><a href="javascript:void(0)">Hospitality Applications</a></h4>
               <p style="text-align: justify;">Want to climb up the technical ladder? We are here with the best in class software applications that will allow you to proceed as you need.</p>
             </div>
           </div>
@@ -204,7 +209,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-check-shield"></i></div>
-              <h4><a href="">Aark Consultation Services</a></h4>
+              <h4><a href="javascript:void(0)">Aark Consultation Services</a></h4>
               <p style="text-align: justify;">You are a beginner in the industry, don’t feel alone. Reach out to us and we will help you set up your Restaurants, Hotels and manage them.</p>
             </div>
           </div>
@@ -212,7 +217,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Funding Co-ordination</a></h4>
+              <h4><a href="javascript:void(0)">Funding Co-ordination</a></h4>
               <p style="text-align: justify;">For any kind of outdoor orders, we provide the best in class catering services. As, food is the life of any party.</p>
             </div>
           </div>
@@ -321,7 +326,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
+ 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
@@ -333,6 +338,10 @@ $message .= "\n\nTo send a reply, please click here -> $email";
       </div>
     </div>
   </footer><!-- End Footer -->
+
+  <div class="sticky">
+    Position Sticky footer <i class="fa fa-times" aria-hidden="true"></i>
+  </div>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>

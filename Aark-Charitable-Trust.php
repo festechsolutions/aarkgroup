@@ -83,7 +83,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
-              <li><a href="Aark-Reality">Aark Reality</a></li>
+              <li><a href="Aark-Realty">Aark Realty</a></li>
               <li><a href="#">Aark Charity Services</a></li>
             </ul>
           </li> 

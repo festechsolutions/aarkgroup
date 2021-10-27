@@ -14,6 +14,15 @@ body {
   color: #444444;
 }
 
+.sticky {
+  padding: 10px;
+  text-align: center;
+  background-color: #f44336;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
 a {
   color: #cc1616;
   text-decoration: none;
@@ -477,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -505,7 +514,6 @@ section {
   padding-bottom: 0;
   color: #191919;
   position: relative;
-  z-index: 2;
 }
 
 .section-title span {
@@ -514,7 +522,6 @@ section {
   color: #f4f4f4;
   left: 0;
   right: 0;
-  z-index: 1;
   font-weight: 700;
   font-size: 52px;
   text-transform: uppercase;
@@ -524,7 +531,6 @@ section {
 .section-title p {
   margin-bottom: 0;
   position: relative;
-  z-index: 2;
 }
 
 @media (max-width: 575px) {

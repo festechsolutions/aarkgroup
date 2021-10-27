@@ -74,7 +74,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <li class="dropdown"><a href="#"><span>Aark Group</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
-              <li><a href="#">Aark Reality</a></li>
+              <li><a href="#">Aark Realty</a></li>
               <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
             </ul>
           </li> 
@@ -94,9 +94,9 @@ $message .= "\n\nTo send a reply, please click here -> $email";
 
         <ol>
           <li><a href="index">Home</a></li>
-          <li>Aark Reality</li>
+          <li>Aark Realty</li>
         </ol>
-        <h2>Aark Reality</h2>
+        <h2>Aark Realty</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -116,23 +116,10 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             </span>
           </div>
           <div class="col-xs-12 col-sm-6 col-centered">
-            <span class="float-right">
-              <p style="text-align: justify;padding-left: 50px;padding-top: 50px;">
-                  1. Joint Ventures
-              </p>
-              <p style="text-align: justify;padding-left: 50px;">
-                  2. Infrastructure Development
-              </p>
-              <p style="text-align: justify;padding-left: 50px;">
-                  3. Buying, Selling and Leasing of Commercial Land
-              </p>
-              <p style="text-align: justify;padding-left: 50px;">
-                  4. Co-ordination of Project Development Funding
-              </p>
-              <p style="text-align: justify;padding-left: 50px;">
-                  5. Preferred Sales Partner
-              </p>
-            </span>
+            <p style="text-align: justify; padding-left: 30px;padding-top: 30px;">
+              AARK realty is a part of AARK group that mainly focusses on real estate and property dealing. The company is managed by well experienced professionals who are in the industry for more than 30 years. We are experts in helping you with Selling, buying, or leasing of lands, buildings and helps you in development of infrastructure. We are in co-ordination with a national infra-development company called JV infra developments.<br><br>
+              We provide the services that are listed below: 
+            </p>  
           </div>           
         </div>
 
@@ -153,48 +140,49 @@ $message .= "\n\nTo send a reply, please click here -> $email";
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-truck"></i></div>
-              <h4><a href="">Buy, Sell and Lease</a></h4>
-              <p style="text-align: justify;">We are here to assist you in buying, selling and leasing. Be it lands, buildings or plots.</p>
+              <h4><a href="">Preferred Selling Partner</a></h4>
+              <p style="text-align: justify;">We are preferred by India’s leading companies to
+              assist them in marketing and sales of the buildings and commercial lands.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Hospitality Consultancy </a></h4>
-              <p style="text-align: justify;">We help you with any services needed in managing your restaurant or hotels. Consulting is the best way to go.</p>
+              <div class="icon"><i class="bx bx-money"></i></div>
+              <h4><a href="">Co-ordination of Funding</a></h4>
+              <p style="text-align: justify;">We help you with co-ordination of funding required for the projects.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-male"></i><i class="bx bx-female"></i></div>
-              <h4><a href="">Infrastructure Development</a></h4>
-              <p style="text-align: justify;">It’s important to always find the right people for the right job. Here to help you hire the  best as teamwork is dreamwork.</p>
+              <h4><a href="">Infrastructure Project Development</a></h4>
+              <p style="text-align: justify;">We assist you in development of infrastructure as per the requirements and needs.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-store"></i></div>
-              <h4><a href="">Hospitality Applications</a></h4>
-              <p style="text-align: justify;">Want to climb up the technical ladder? We are here with the best in class software applications that will allow you to proceed as you need.</p>
+              <h4><a href="">Buy sell and lease of lands and buildings</a></h4>
+              <p style="text-align: justify;">We are here to assist you in buying, selling and leasing. Be it lands, buildings or plots.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-check-shield"></i></div>
-              <h4><a href="">Aark Consultation Services</a></h4>
-              <p style="text-align: justify;">You are a beginner in the industry, don’t feel alone. Reach out to us and we will help you set up your Restaurants, Hotels and manage them.</p>
+              <h4><a href="">Land scaping and plotting</a></h4>
+              <p style="text-align: justify;">We provide cost-effective residential and commercial landscaping and plotting solutions.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Funding Co-ordination</a></h4>
-              <p style="text-align: justify;">For any kind of outdoor orders, we provide the best in class catering services. As, food is the life of any party.</p>
+              <h4><a href="">Sale, lease or purchase of commercial lands</a></h4>
+              <p style="text-align: justify;">We are here to assist you in buying, selling and leasing of exclusively commercial lands, buildings, etc.</p>
             </div>
           </div>
 
