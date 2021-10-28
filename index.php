@@ -340,7 +340,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
   </footer><!-- End Footer -->
 
   <div class="sticky">
-    Position Sticky footer <i class="fa fa-times" aria-hidden="true"></i>
+    FORMERLY PURPLE HOSPITALITY SERVICES<i class="fa fa-times" aria-hidden="true"></i>
   </div>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
