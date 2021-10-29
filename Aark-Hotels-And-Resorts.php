@@ -116,7 +116,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             </span>
           </div>
           <div class="col-xs-12 col-sm-6 col-centered">
-            <p style="text-align: justify; padding-left: 30px;padding-top: 30px;">
+            <p style="text-align: justify; padding-top: 30px;">
               AARK Hotels and resorts is a professionally managed entity that offers a wide range of services. A company that is micro-managed by experts with extensive experience of having worked for various hospitality verticals. Which now offers you a plethora of services custom made to serve all your hospitality needs. From setting up new hotels and resorts to staffing and maintenance we are here for all your needs.<br><br>
               We provide the services that are listed below:
             </p>
