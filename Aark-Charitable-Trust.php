@@ -84,7 +84,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
               <li><a href="Aark-Realty">Aark Realty</a></li>
-              <li><a href="#">Aark Charity Services</a></li>
+              <li><a href="#">Aark Charitable Trust</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -103,9 +103,9 @@ $message .= "\n\nTo send a reply, please click here -> $email";
 
         <ol>
           <li><a href="index">Home</a></li>
-          <li>Aark Charity Services</li>
+          <li>Aark Charitable Trust</li>
         </ol>
-        <h2>Aark Charity Services</h2>
+        <h2>Aark Charitable Trust</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->

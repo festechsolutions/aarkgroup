@@ -80,7 +80,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
               <li><a href="Aark-Realty">Aark Realty</a></li>
-              <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
+              <li><a href="Aark-Charitable-Trust">Aark Charitable Trust</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>

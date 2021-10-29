@@ -15,9 +15,9 @@ body {
 }
 
 .sticky {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
-  background-color: #f44336;
+  background-color: #C3B1E1;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;

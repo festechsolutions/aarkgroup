@@ -76,7 +76,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
               <li><a href="Aark-Realty">Aark Realty</a></li>
-              <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
+              <li><a href="Aark-Charitable-Trust">Aark Charitable Trust</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -151,8 +151,8 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <div class="box">
              <a href="Aark-Charitable-Trust">
               <span>03</span>
-              <h4> Aark Charity Services </h4>
-              <p style="text-align: justify;">Aark Charitable was started with a pure heart and sole intent of eliminating social problems. We strive to help and find solutions for society. As, we at Aark believe that we rise only by lifting others.</p><br>
+              <h4>Aark Charitable Trust</h4>
+              <p style="text-align: justify;">Aark Charitable Trust was started with a pure heart and sole intent of eliminating social problems. We strive to help and find solutions for society. As, we at Aark believe that we rise only by lifting others.</p><br>
               <span><u>Get Started</u></span>
              </a>
             </div>

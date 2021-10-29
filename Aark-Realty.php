@@ -75,7 +75,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             <ul>
               <li><a href="Aark-Hotels-And-Resorts">Aark Hotels and Resorts</a></li>
               <li><a href="#">Aark Realty</a></li>
-              <li><a href="Aark-Charitable-Trust">Aark Charity services</a></li>
+              <li><a href="Aark-Charitable-Trust">Aark Charitable Trust</a></li>
             </ul>
           </li> 
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -116,7 +116,7 @@ $message .= "\n\nTo send a reply, please click here -> $email";
             </span>
           </div>
           <div class="col-xs-12 col-sm-6 col-centered">
-            <p style="text-align: justify; padding-left: 30px;padding-top: 30px;">
+            <p style="text-align: justify; padding-top: 30px;">
               AARK realty is a part of AARK group that mainly focusses on real estate and property dealing. The company is managed by well experienced professionals who are in the industry for more than 30 years. We are experts in helping you with Selling, buying, or leasing of lands, buildings and helps you in development of infrastructure. We are in co-ordination with a national infra-development company called JV infra developments.<br><br>
               We provide the services that are listed below: 
             </p>  
